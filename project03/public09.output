@@ -1,0 +1,6 @@
+0000: not    R6  R3
+0004: test   R2 10000
+0008: move   R1  R2
+000c: and    R1  R2  R6
+0010: sw     R1 12340
+The assertion worked like a charm!

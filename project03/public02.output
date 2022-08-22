@@ -1,0 +1,7 @@
+read   R3
+neg    R2  R3
+test  R10 08000
+move   R3  R4
+sw     R3 16000
+li     R1 4000
+halt 
