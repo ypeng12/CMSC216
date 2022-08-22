@@ -1,0 +1,4 @@
+main.x: main.o functions.o
+	gcc main.o functions.o -o main.x
+
+Everything in the heap looks valid!

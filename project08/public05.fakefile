@@ -1,0 +1,11 @@
+target1: dependency1
+	echo "This should be printed by the first rule."
+
+target2: dependency2
+	ls public05.fakefile
+
+target3: dependency3
+	cat public05.fakefile
+
+target4: dependency1
+	echo "This should be printed by the last rule."
