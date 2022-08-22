@@ -1,0 +1,51 @@
+set verbose
+mkfs
+
+mkdir aardvark
+touch kangaroo
+mkdir platypus
+touch parrot
+touch panda
+
+cd aardvark
+
+touch kangaroo
+mkdir parrot
+mkdir rhinoceros
+touch panda
+
+cd ..
+
+cd platypus
+
+touch eel
+mkdir llama
+mkdir zebra
+touch wildebeest
+
+cd llama
+
+mkdir chipmunk
+touch penguin
+mkdir moth
+touch cobra
+touch sloth
+mkdir cricket
+
+cd moth
+pwd
+
+cd ..
+pwd
+ls
+
+cd ..
+pwd
+ls
+
+cd ..
+pwd
+ls
+
+ls aardvark
+
