@@ -1,0 +1,10 @@
+/* Writing good descriptive comments is very important. */
+
+/* This is not only because comments are a significant part of your score. */
+
+/* It is also because writing good descriptive comments help you understand
+   you own program much better, and often the process of writing comments
+   to describe what your code is doing makes you realize that you need to
+   fix or change something in it. */
+
+/* So write more comments today! */

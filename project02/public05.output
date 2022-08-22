@@ -1,0 +1,20 @@
+   18: #include <stdio.h>
+    0: 
+   12: int main() {
+X  93:   /* here I am declaring a variable that is named x, which stores one single integer value */
+   11:   int x= 1;
+    0: 
+   43:   /* now I am adding 1 to the value of x */
+    6:   x++;
+    0: 
+   30:   printf("x is now %d.\n", x);
+    0: 
+X 114:   /* this very complicated statement is causing the value of x to be equal to its current value multiplied by 3 */
+   79:   /* (I do not recommend that beginners use such advanced language features) */
+    9:   x *= 3;
+    0: 
+   34:   printf("And now x is %d.\n", x);
+    0: 
+   42:   /* the program is finishing- bye now! */
+   11:   return 0;
+    1: }

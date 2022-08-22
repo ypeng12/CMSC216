@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void) { printf("Believe it or not, this is a working C program.\n"); return 0; }

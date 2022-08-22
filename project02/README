@@ -1,0 +1,21 @@
+                      Commands to run the public tests
+
+1. checklength.x < public01.input | diff - public01.output
+
+2. checklength.x < public02.input | diff - public02.output
+
+3. checklength.x < public03.input | diff - public03.output
+
+4. checklength.x < public04.input | diff - public04.output
+
+5. checklength.x < public05.input | diff - public05.output
+
+6. tabexpand.x < public06.input | diff - public06.output
+
+7. checklength.x < public07.input | diff - public07.output
+
+8. tabexpand.x < public08.input | checklength.x | diff - public08.output
+
+9. checklength.x < public09.input | diff - public09.output
+
+10. tabexpand.x < public10.input | diff - public10.output
