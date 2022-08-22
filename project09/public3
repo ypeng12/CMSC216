@@ -1,0 +1,11 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Spring 2022, Project #10
+# Public test 3 (public3)
+#
+# Tests running the second program to compute catalan(0).
+#
+# (c) Larry Herman, 2022.  You are allowed to use this code yourself, but
+# not to provide it to anyone else.
+
+spim -file prog2.s < public3.inputdata | tail -n +2

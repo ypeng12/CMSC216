@@ -1,0 +1,11 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Spring 2022, Project #10
+# Public test 1 (public1)
+#
+# Tests running the first program to compute reverse_digits(1).
+#
+# (c) Larry Herman, 2022.  You are allowed to use this code yourself, but
+# not to provide it to anyone else.
+
+spim -file prog1.s < public1.inputdata | tail -n +2
